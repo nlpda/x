@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+  <rect width="320" height="200" fill="#102a43"/>
+  <text x="90" y="30" fill="#d9e2ec" font-size="16" font-family="sans-serif">Producer/Consumer</text>
+  <circle cx="70" cy="90" r="25" fill="#f6b93b"/>
+  <circle cx="250" cy="90" r="25" fill="#e66767"/>
+  <rect x="125" y="70" width="70" height="40" rx="6" fill="#57cc99"/>
+  <text x="64" y="95" fill="#102a43" font-size="12" font-family="monospace">P</text>
+  <text x="238" y="95" fill="#102a43" font-size="12" font-family="monospace">C</text>
+  <text x="145" y="95" fill="#0b132b" font-size="12" font-family="monospace">Buffer</text>
+  <line x1="95" y1="90" x2="125" y2="90" stroke="#d9e2ec" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="195" y1="90" x2="225" y2="90" stroke="#d9e2ec" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="110" y="150" fill="#d9e2ec" font-size="12" font-family="sans-serif">Mutex wraps buffer operations</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#d9e2ec" />
+    </marker>
+  </defs>
+</svg>
