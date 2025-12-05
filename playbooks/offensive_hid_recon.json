@@ -1,0 +1,37 @@
+{
+  "name": "Offensive HID Recon",
+  "description": "Opens a terminal on a Windows host, runs basic recon commands, and types the output.",
+  "target_os": "Windows",
+  "steps": [
+    {
+      "action": "press_keys",
+      "payload": ["GUI", "r"],
+      "description": "Open the Run dialog."
+    },
+    {
+      "action": "type_string",
+      "payload": "powershell",
+      "description": "Type 'powershell' into the Run dialog."
+    },
+    {
+      "action": "press_keys",
+      "payload": ["ENTER"],
+      "description": "Press Enter to open PowerShell."
+    },
+    {
+      "action": "delay",
+      "payload": 2,
+      "description": "Wait for the PowerShell window to open."
+    },
+    {
+      "action": "type_string",
+      "payload": "$user = whoami; $host = hostname; echo \\\"User: $user, Host: $host\\\"",
+      "description": "Run recon commands and echo the output."
+    },
+    {
+      "action": "press_keys",
+      "payload": ["ENTER"],
+      "description": "Execute the commands."
+    }
+  ]
+}
