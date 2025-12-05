@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+  <rect width="320" height="180" fill="#0b132b"/>
+  <text x="20" y="40" fill="#ffffff" font-size="16" font-family="monospace">systemd (1)</text>
+  <text x="40" y="70" fill="#9be7ff" font-size="14" font-family="monospace">├─ sshd (731)</text>
+  <text x="60" y="100" fill="#ffcb77" font-size="14" font-family="monospace">└─ bash (9124)</text>
+  <text x="80" y="130" fill="#ffcb77" font-size="14" font-family="monospace">└─ pstree (9201)</text>
+  <text x="20" y="160" fill="#7ae582" font-size="12" font-family="sans-serif">Baseline tree used in Week 1 log.</text>
+</svg>

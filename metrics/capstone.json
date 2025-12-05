@@ -1,0 +1,6 @@
+{
+  "cpu_spin": 2,
+  "io_events": 5,
+  "runtime_ms": 782,
+  "latency_p99_ms": 33
+}

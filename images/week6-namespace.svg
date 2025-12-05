@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="190" viewBox="0 0 340 190">
+  <rect width="340" height="190" fill="#14213d"/>
+  <text x="95" y="24" fill="#fca311" font-size="16" font-family="sans-serif">Namespace Isolation</text>
+  <rect x="20" y="50" width="130" height="110" rx="8" fill="#e5e5e5"/>
+  <rect x="190" y="50" width="130" height="110" rx="8" fill="#e5e5e5"/>
+  <text x="50" y="75" fill="#14213d" font-size="12" font-family="monospace">Host PID 1</text>
+  <text x="205" y="75" fill="#14213d" font-size="12" font-family="monospace">Namespace PID 1</text>
+  <line x1="150" y1="100" x2="190" y2="100" stroke="#fca311" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="70" y="150" fill="#14213d" font-size="12" font-family="sans-serif">cgroups limit CPU</text>
+  <text x="215" y="150" fill="#14213d" font-size="12" font-family="sans-serif">veth → bridge</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#fca311" />
+    </marker>
+  </defs>
+</svg>

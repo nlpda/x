@@ -1,0 +1,11 @@
+title: "CMPN202 OS Coursework"
+description: "Weekly logs, scripts, and diagrams for the CMPN202 Operating Systems project"
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+exclude:
+  - README.md

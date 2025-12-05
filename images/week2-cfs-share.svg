@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="180" viewBox="0 0 320 180">
+  <rect width="320" height="180" fill="#0a2342"/>
+  <text x="20" y="35" fill="#f6f7eb" font-size="16" font-family="sans-serif">CFS Runnable Entities</text>
+  <rect x="20" y="60" width="120" height="30" fill="#ff595e" rx="4"/>
+  <rect x="160" y="60" width="120" height="30" fill="#8ac926" rx="4"/>
+  <text x="25" y="80" fill="#0b132b" font-size="13" font-family="monospace">task_A (50%)</text>
+  <text x="165" y="80" fill="#0b132b" font-size="13" font-family="monospace">task_B (50%)</text>
+  <text x="20" y="130" fill="#f6f7eb" font-size="12" font-family="sans-serif">Recorded during Week 2 scheduling drills.</text>
+</svg>

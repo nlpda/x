@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="190" viewBox="0 0 340 190">
+  <rect width="340" height="190" fill="#1b3a4b"/>
+  <text x="110" y="25" fill="#e0fbfc" font-size="16" font-family="sans-serif">VFS Lookup</text>
+  <rect x="30" y="60" width="70" height="40" rx="6" fill="#ffb703"/>
+  <rect x="130" y="60" width="80" height="40" rx="6" fill="#fb8500"/>
+  <rect x="240" y="60" width="70" height="40" rx="6" fill="#8ecae6"/>
+  <text x="45" y="85" fill="#1b3a4b" font-size="12" font-family="monospace">open()</text>
+  <text x="145" y="85" fill="#1b3a4b" font-size="12" font-family="monospace">dentry</text>
+  <text x="255" y="85" fill="#1b3a4b" font-size="12" font-family="monospace">inode</text>
+  <line x1="100" y1="80" x2="130" y2="80" stroke="#e0fbfc" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="210" y1="80" x2="240" y2="80" stroke="#e0fbfc" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="60" y="140" fill="#e0fbfc" font-size="12" font-family="sans-serif">Dentry cache hit avoids disk</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#e0fbfc" />
+    </marker>
+  </defs>
+</svg>
